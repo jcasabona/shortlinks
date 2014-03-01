@@ -1,0 +1,391 @@
+/**Normalize.css**/
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}body,button,input,select,textarea{font-family:sans-serif}a{color:#00e}a:visited{color:#551a8b}a:focus{outline:thin dotted}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol{margin:1em 0;padding:0 0 0 40px}dd{margin:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/** The Crux of the Matter **/
+
+/**
+	Light Blue: #168fbe
+	Dark Blue: #2b3840
+	Red: #d95b33
+	Light Grey: #d1cbc3
+	Dark Grey: #bfbab4
+	Yellow: #fcb11e
+**/
+
+body{
+	background: #FFFFFF;
+	font-family: "Open Sans Condensed", Helvetica, sans-serif;
+	font-size: 62.5%;
+	text-align: center;
+	color: #666666;
+	}
+	
+a, a:visited{
+	color: #fcb11e;
+	text-decoration: none;
+	}
+	
+a:hover{
+	color: #168fbe;
+	}
+	
+h1,h2,h3{
+	font-family: Nunito, Futura, sans-serif;
+	color: #168fbe;
+	}
+	
+	
+img,object,wmbed,video{
+	max-width: 100%;
+	max-height: auto;
+	}
+
+
+ul.links{
+	margin: 0;
+	padding: 0;
+}
+	
+ul.links li{
+	list-style-type: none;
+	display: inline;
+	margin: 0.5em;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+	
+table{
+	margin: 1em auto;
+	font-size: 1.25em;
+	}
+	
+td,th{ 
+    display: block; 
+} 
+	
+td{
+	padding: 0.5em 0.5em 0.5em 1em;
+	}
+	
+.center{
+	text-align: center;
+	}
+
+#wrapper{
+	margin: 0 auto;
+	text-align: left;
+	max-width: 95%;
+	font-size: 1.4em;
+	padding: 1em 0.5em;
+	}
+	
+#wrapper .contest, #wrapper .impact{
+	text-align: center;
+	}
+	
+header h1{
+	border-bottom: 1px solid #000000;
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
+	color: #d95b33;
+	text-align: center;
+	}
+	
+header h1 span{
+	color: #168fbe;
+	}
+	
+h2, h3{
+	font-size: 1.9em;
+	margin: 0;
+	padding: 0.3em;
+	}
+		
+#wrapper dl, #wrapper p{
+	padding: 15px 4%;
+	margin: 0;
+	font-size: 1.6em;
+	}
+	
+#wrapper blockquote{
+	padding: 15px 4%;
+	margin: 0 5%;
+	font-size: 1.7em;
+	font-style: italic;
+	color: #777777;
+	font-family: Cambria, Georgia, Times, "Times New Roman", serif;
+	}
+	
+#wrapper dl dt{
+	margin: 0;
+	font-weight: bold;
+	padding: 10px 0 5px 0;
+	color: #880000;
+	}
+	
+#wrapper dl dd{
+	margin: 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #008800;
+	}
+	
+#wrapper dl a dd{
+	color: #333333;
+}
+
+#content{
+    
+	}
+	
+#content .contest p{
+	margin: 0;
+	padding: 0.3em;
+	}
+	
+#content .contest ol li{
+	text-align: left;
+	font-size: 1.4em;
+	margin: 0.4em 0;
+	}
+	
+#content img{
+	padding: 1em;
+	margin: 0 auto;
+	max-width: 94%;
+
+	}
+	
+#content .author{
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+#content .author p{
+	text-align: left;
+	}
+	
+#content .author img{
+	max-width: 60%;
+	margin: 0 auto;
+	}
+	
+	
+a.button {
+	display: block;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(top, #f07f7f 0%, #a62424);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f07f7f),to(#a62424));
+	background: -webkit-linear-gradient(top, #f07f7f 0%, #a62424);
+	background: -o-linear-gradient(top, #f07f7f 0%, #a62424);
+	background: -ms-linear-gradient(top, #f07f7f 0%, #a62424);
+	background: linear-gradient(top, #f07f7f 0%, #a62424);
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+	width: 80%;
+	margin: 15px auto;
+	font-size: 2em;
+	text-align: center;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f07f7f', endColorstr='#a62424');
+}
+
+background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.03) 31%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(31%,rgba(0,0,0,0.03)), color-stop(32%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
+
+a.button:hover {
+	display: block;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(top, #a62424 0%, #f07f7f);
+	background: -webkit-gradient(linear, left top, left bottom, from(#a62424),to(#f07f7f));
+	background: -webkit-linear-gradient(top, #a62424 0%, #f07f7f);
+	background: -o-linear-gradient(top, #a62424 0%, #f07f7f);
+	background: -ms-linear-gradient(top, #a62424 0%, #f07f7f);
+	background: linear-gradient(top, #a62424 0%, #f07f7f);
+	cursor: pointer;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a62424', endColorstr='#f07f7f');
+}
+
+footer{
+	color: #168fbe;
+	text-align: center;
+	}
+	
+footer h2, footer p{
+	margin: 0.5em;
+	}
+	
+	
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clear{
+clear: both;
+}
+
+@media screen and (min-width: 40.5em){
+
+	#wrapper .contest{
+		text-align: left;
+		max-width: 80%;
+		margin: 0 auto;
+		}
+		
+	#wrapper .contest .impact img{
+		max-width: 30%;
+		float: left;	
+		}
+		
+	#wrapper h1{
+		font-size: 4em;
+		}
+	
+	#wrapper h2{
+		font-size: 3em;
+		}
+		
+	#wrapper h3{
+		font-size: 2.8em;
+		}
+		
+	.buttons{
+		width: 99%;
+		margin: 0 auto;
+		text-align: center;
+		}
+		
+	#content .author img{
+		max-width: 20%;
+		margin: 0.5em;
+		float: left;
+		}
+	
+	.contest .impact{
+		text-align: left;
+		margin: 0 auto;
+		}
+		
+	#content .impact img{
+		max-width: 70%;
+		}
+		
+	footer h2{
+		font-size: 3em;
+		font-weight: bold;
+		}
+		
+	td,th{ 
+    	display: table-cell; 
+		padding: 0.5em;
+		}
+		
+	#content img.left{
+		float: left;
+		margin: 0.5em;
+		max-width: 40%;
+		}
+
+	.impact{
+		margin: 0 auto;
+		}
+		
+	}
+	
+	
+@media screen and (min-width: 42.25em){
+	a.button{
+		width: 35%;
+		display: inline-block;
+		float: none;
+		margin: 0.2em;
+		}
+}
+
+
+@media screen and (min-width: 45em){
+
+	a.button{
+		width: 42%;
+		}
+		
+	.right{
+		float: right;
+		}
+}
+
+@media screen and (min-width: 60.321em){
+
+	#wrapper .contest{
+		max-width: 70%;
+		}
+
+	#content .impact img{
+		max-width: 60%;
+		}
+		
+	#content .contest .impact img{
+		max-width: 20%;
+		}
+		
+	article{
+		margin: 0.5em;
+		text-align: left;
+		}
+		
+	article.book{
+		width: 70%;
+		margin: 1em auto;	
+		}
+		
+	a.button{
+		width: 30%;
+		}
+		
+	#content .author{
+		width: 70%;
+		margin: 1em auto;
+		}
+		
+	#content .author img{
+		max-width: 15%;
+		}
+		
+}
+
+@media screen and (min-width: 80.25em){
+	#content .contest .impact img{
+		max-width: 20%;
+		}
+
+
+	.buttons{
+		width: 70%; 
+		text-align: center;
+		margin: 0.5em auto;
+		}
+		
+	a.button{
+		padding: 0.6em;
+		margin: 0.6em;
+		}
+}

@@ -1,5 +1,0 @@
-RewriteEngine On
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteRule ^([0-9]+)$ ./index.php?urlID=$1 [L]
-RewriteRule ^([A-Za-z]+)(/)?$ $1.php [L]
